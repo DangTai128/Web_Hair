@@ -3,7 +3,6 @@ import HeaderStyle from '../Header/styleHeader.css';
 
 const Header = () => {
     return (
-        <HeaderStyle>
             <div class = 'container'>
                 <a href="#" class = 'logo'>
                     <h2 class = 'logo-text'>QA Hair</h2>
@@ -22,8 +21,7 @@ const Header = () => {
                         <a href="#" class = 'link'>Contact</a>
                     </li>
                 </ul>
-            </div>
-        </HeaderStyle>    
+            </div>   
     )
 }
 
