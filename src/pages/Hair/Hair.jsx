@@ -1,7 +1,12 @@
 import React from 'react';
 
 const Hair = () => {
-  return <div>Welcome to the Home Page!</div>;
+  return (
+    <div>
+      <h1>Welcome to the Hair Page!</h1>
+      <p>Explore our hair products and services.</p>
+    </div>
+  );
 };
 
-export default Hair; // Ensure this is a default export
+export default Hair; // Đảm bảo đây là export mặc định (default export)
