@@ -1,27 +1,29 @@
 import React from "react";
-import HeaderStyle from '../Header/styleHeader.css';
+import "./styleHeader.css";
 
 const Header = () => {
     return (
+        <header>
             <div class = 'container'>
                 <a href="#" class = 'logo'>
                     <h2 class = 'logo-text'>QA Hair</h2>
                 </a>
                 <ul class = 'menu'>
                     <li class = 'item'>
-                        <a href="#" class = 'link'>Home</a>
+                        <a href="home" class = 'link'>Home</a>
                     </li>
                     <li class = 'item'>
-                        <a href="#" class = 'link'>About us</a>
+                        <a href="about" class = 'link'>About</a>
                     </li>
                     <li class = 'item'>
-                        <a href="#" class = 'link'>Hair</a>
+                        <a href="hair" class = 'link'>Hair</a>
                     </li>
                     <li class = 'item'>
-                        <a href="#" class = 'link'>Contact</a>
+                        <a href="contact" class = 'link'>Contact</a>
                     </li>
                 </ul>
-            </div>   
+            </div>
+        </header>
     )
 }
 

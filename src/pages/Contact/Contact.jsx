@@ -1,7 +1,10 @@
 import React from 'react';
+import Header from '../../component/Header/HeaderComponent';
 
 const Contact = () => {
-  return <div>Welcome to the Home Page!</div>;
+  return (
+    <Header/>
+  )
 };
 
 export default Contact; 

@@ -1,0 +1,109 @@
+
+.content-1 {
+  position: absolute;
+  top: 550px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 90%;
+  text-align: center;
+  font-size: 24px;
+}
+
+.bk1 {
+  width: 100%;
+  height: 700px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.home-2 {
+  margin: 40px 10px 0 10px;
+}
+
+.box-1, .box-2 {
+  display: flex;
+  gap: 40px;
+}
+
+.box-2 {
+  margin-top: 40px;
+}
+
+.text1, .text2 p {
+  font-size: 20px;
+}
+
+.box-img img {
+  border-radius: 20px;
+  width: 720px;
+}
+
+.home-3 {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.title-2 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.container-3 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.miniBox:nth-child(1),
+.miniBox:nth-child(2),
+.miniBox:nth-child(3),
+.miniBox:nth-child(4),
+.miniBox:nth-child(5),
+.miniBox:nth-child(6) {
+  width: 25%;
+  height:400px ;
+  border-radius: 20px;
+  background-color: black;
+}
+
+
+h2 {
+  color: white;
+  border-bottom: 2px solid aqua;
+}
+
+.miniBox {
+  background-color: white; /* Nền trắng cho miniBox */
+  border-radius: 8px; /* Bo góc cho miniBox */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Đổ bóng cho miniBox */
+  overflow: hidden; /* Ẩn phần thừa nếu có */
+  width: 200px; /* Chiều rộng cố định cho miniBox */
+  text-align: center; /* Căn giữa nội dung trong miniBox */
+}
+
+.boximg {
+  display: block; /* Hiển thị dưới dạng khối */
+}
+
+.boximg img {
+  width: 100%; /* Chiều rộng 100% của boximg */
+  height: auto; /* Giữ tỷ lệ hình ảnh */
+  object-fit: cover; /* Cắt hình ảnh để phù hợp với kích thước box */
+  transition: transform 0.3s; /* Hiệu ứng chuyển động khi hover */
+}
+
+.boximg img:hover {
+  transform: scale(1.05); /* Phóng to hình ảnh khi hover */
+}

@@ -1,0 +1,48 @@
+.footer {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    text-align: left;
+    background-color: black  ;
+    color: white;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Box-information {
+    flex: 1;
+    padding: 10px;
+}
+
+.Box-product {
+    flex: 1;
+    padding: 10px;
+    margin-left: 600px;
+    margin-right: 100px;
+}
+
+.Box-help {
+    flex: 1;
+    padding: 10px;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0 ;
+}
+
+.item {
+    margin: 5px 0;
+    color: white;
+}
+
+.chat {
+    color: white;
+}
