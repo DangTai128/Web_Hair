@@ -38,12 +38,12 @@ const Home = () => {
           </div>
         </div>
         <div className="home-2">
-          <div className="title-1">
-            <p>#</p>
+          <div className="home-title-1">
+            <p># ABOUT US</p>
           </div>
           <div className="box-1">
               <div className="text1">
-                <p> TN HAIR VIETNAM is a state-of-the-art, full-cycle hair extension factory. With advanced equipment, innovative technologies, and a modern production approach, we are proud to deliver top-notch products to our valued customers.
+                <p> QA HAIR VIETNAM is a state-of-the-art, full-cycle hair extension factory. With advanced equipment, innovative technologies, and a modern production approach, we are proud to deliver top-notch products to our valued customers.
 Our hair extensions are designed for longevity, thanks to their exceptional quality. From tape-ins and wefts to keratin bonds and more, we offer a complete range of extension options. Each strand is carefully crafted with a fully intact cuticle layer, ensuring elasticity, natural shine, and long-lasting beauty. Every step of the process is performed by hand, enabling us to maintain the highest standards of quality control.</p>
               </div>
               <div className="box-img">
@@ -55,13 +55,27 @@ Our hair extensions are designed for longevity, thanks to their exceptional qual
               <img src="/image/background.jpg" alt="abcd"/>
             </div>
             <div className="text2">
-              <p> At TN HAIR VIETNAM, our mission is to empower hair professionals with premium Remy hair extensions that look natural and feel amazing, helping them retain loyal clients. Together, we can ensure you and your clients feel confident and radiant—all at the best value!</p>
+              <p> At QA HAIR VIETNAM, our mission is to empower hair professionals with premium Remy hair extensions that look natural and feel amazing, helping them retain loyal clients. Together, we can ensure you and your clients feel confident and radiant—all at the best value!</p>
             </div>
           </div>
         <div/>
         <div className="home-3">
-          <div className="title-2">
+          <div className="home-title-2">
             <p>#OUR PRODUCT</p>
+          </div>
+          <div className="icon">
+            <div className="icon-1">
+              <img src="/image/iconST.png" alt="#" />
+              <p>Sản xuất và bán tóc người để nối tóc</p>
+            </div>
+            <div className="icon-1">
+              <img src="/image/iconVN.png" alt="#" />
+              <p>Tóc nối tại Việt Nam</p>
+            </div>
+            <div className="icon-1">
+              <img src="/image/iconTC.png" alt="#" />
+              <p>Dễ tiếp cận với mọi người</p>
+            </div>
           </div>
           <div class="container-3">
             <div class="miniBox">

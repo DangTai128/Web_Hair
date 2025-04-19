@@ -1,0 +1,22 @@
+
+.about-title-1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.about-box {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+}
+
+.about-box img {
+    border-radius: 20px;
+    width: 690px;
+}
+
+.Ifb {
+    width: 10%;
+    height: 10%;
+}

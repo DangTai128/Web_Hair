@@ -13,7 +13,7 @@ const Header = () => {
                         <a href="home" class = 'link'>Home</a>
                     </li>
                     <li class = 'item'>
-                        <a href="about" class = 'link'>About</a>
+                        <a href="about" class = 'link'>About Us</a>
                     </li>
                     <li class = 'item'>
                         <a href="hair" class = 'link'>Hair</a>

@@ -1,0 +1,21 @@
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: #333;
+    padding: 10px;
+    transition: border-bottom 0.2s;
+}
+
+.nav-link:hover {
+    border-bottom: 4px solid #333;
+}

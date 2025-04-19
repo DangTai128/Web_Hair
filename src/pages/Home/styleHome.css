@@ -28,6 +28,12 @@
   margin: 40px 10px 0 10px;
 }
 
+.home-title-1 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 800;
+}
+
 .box-1, .box-2 {
   display: flex;
   gap: 40px;
@@ -51,15 +57,42 @@
   margin-bottom: 70px;
 }
 
-.title-2 {
+.home-title-2 {
   font-size: 40px;
   text-align: center;
   font-weight: 800;
 }
 
+.icon {
+  display: flex;
+  padding: 20px;
+}
+
+.icon-1 {
+  text-align: center;
+  padding: 20px;
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.icon img {
+  max-width: 50px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.icon-1:nth-child(2) img {
+  padding: 8.5px;
+}
+
+.icon p {
+  font-size: 20px;
+  font-weight: 800;
+}
+
 .container-3 {
   display: flex;
-  gap: 20px;
+  gap: 50px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;

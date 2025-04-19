@@ -1,0 +1,20 @@
+.fb-button {
+    background-color: black; /* Màu nền Facebook */
+    color: white; /* Màu chữ */
+    border: none; /* Không có viền */
+    border-radius: 10px; /* Bo góc */
+    border: 3px solid black;
+    padding: 10px 20px; /* Khoảng cách bên trong */
+    display: flex; /* Để căn giữa icon và text */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    cursor: pointer; /* Con trỏ chuột dạng tay */
+    font-size: 16px; /* Kích thước chữ */
+}
+
+.fb-button svg {
+    margin-right: 8px; /* Khoảng cách giữa icon và text */
+}
+
+.fb-button :hover {
+    background-color: white;
+}

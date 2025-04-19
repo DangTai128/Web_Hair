@@ -23,6 +23,7 @@
     padding: 10px 20px;
     font-size: 24px;
     color: white;
+    transition: border-bottom 0.2s;
 }
 
 .container .menu .link:hover {
